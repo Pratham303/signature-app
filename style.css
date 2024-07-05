@@ -1,0 +1,52 @@
+#canvas{
+    border: solid black 2px;
+    margin-left: 320px;
+    
+   
+}
+
+#top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+     gap:10vh;
+     margin-top:40px;
+     margin-bottom: 20px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.black{
+    width: 200px;
+}
+
+#bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+    gap:10vh;
+}
+
+.btn{
+ border: solid black 2px;
+ padding: 10px;
+ width:200px;
+ border-radius: 5px;
+ color: white;
+}
+
+#clearButton{
+    background-color: red;
+}
+#saveButton{
+    background-color: green;
+}
+#retrieveButton{
+    background-color:#a3a719 ;
+}

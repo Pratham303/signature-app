@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign app</title>
+    <script src="script.js" type="module" ></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+
+    <div id="top">
+
+       <div class="input">
+        <label for="colorPicker">Text colour picker</label>
+        <input type="color" id="colorPicker" class="black">
+        </div>
+
+        <div class="input">
+
+          <label for="background">Background</label>
+           <input type="color" id="background" class="black">
+
+          </div>
+
+           <div class="input">
+
+             <label for="">Font size</label>
+     <select id="px" class="black">
+      <option value="5">5px</option>
+        <option value="10">10px</option>
+     <option value="15">15px</option>
+     <option value="20">20px</option>
+     <option value="25">25px</option>
+     </select>
+
+      </div>
+      </div>
+  
+
+     <canvas id="canvas" height="400" width="800"></canvas>
+
+     <div id="bottom">
+
+   <button class="btn" id="clearButton">clear</button>
+   <button class="btn" id="saveButton">save & download</button>
+   <button class="btn" id="retrieveButton">retrieve saved signature</button>
+
+</div>
+
+ 
+
+    
+
+</body>
+</html>
